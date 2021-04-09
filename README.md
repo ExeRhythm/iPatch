@@ -15,4 +15,4 @@ Download iPatch.app in [releases](https://github.com/ExeRhythm/iPatch/releases),
 
 ## Compatibility
 
-iPatch is compatible with macOS versions >=11.0.
+iPatch is compatible with macOS versions >=10.14.
