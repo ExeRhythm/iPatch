@@ -685,7 +685,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="iPatch" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="400" height="350"/>
@@ -764,16 +764,22 @@
                                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                             <font key="font" metaFont="system"/>
                                                         </buttonCell>
+                                                        <connections>
+                                                            <action selector="selectIPA:" target="XfG-lQ-9wD" id="XcL-BA-JIh"/>
+                                                        </connections>
                                                     </button>
                                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="dAA-qa-cp9">
                                                         <rect key="frame" x="33" y="0.0" width="92" height="16"/>
-                                                        <textFieldCell key="cell" lineBreakMode="clipping" title="None selected" id="GxW-0P-EJT">
+                                                        <textFieldCell key="cell" lineBreakMode="truncatingTail" title="None selected" usesSingleLineMode="YES" id="GxW-0P-EJT">
                                                             <font key="font" metaFont="system"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
                                                     </textField>
                                                 </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="158" id="qpL-He-Nt4"/>
+                                                </constraints>
                                                 <visibilityPriorities>
                                                     <integer value="1000"/>
                                                     <integer value="1000"/>
@@ -792,16 +798,22 @@
                                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                                             <font key="font" metaFont="system"/>
                                                         </buttonCell>
+                                                        <connections>
+                                                            <action selector="selectDeb:" target="XfG-lQ-9wD" id="WCA-Mn-Gbb"/>
+                                                        </connections>
                                                     </button>
                                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="C6d-mf-CSf">
                                                         <rect key="frame" x="33" y="0.0" width="92" height="16"/>
-                                                        <textFieldCell key="cell" lineBreakMode="clipping" title="None selected" id="3Xx-91-Vzw">
+                                                        <textFieldCell key="cell" lineBreakMode="truncatingTail" title="None selected" usesSingleLineMode="YES" id="3Xx-91-Vzw">
                                                             <font key="font" metaFont="system"/>
                                                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                         </textFieldCell>
                                                     </textField>
                                                 </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="158" id="pGC-Or-b11"/>
+                                                </constraints>
                                                 <visibilityPriorities>
                                                     <integer value="1000"/>
                                                     <integer value="1000"/>
@@ -812,6 +824,9 @@
                                                 </customSpacing>
                                             </stackView>
                                         </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="336" id="Lwr-pr-RYC"/>
+                                        </constraints>
                                         <visibilityPriorities>
                                             <integer value="1000"/>
                                             <integer value="1000"/>
@@ -827,6 +842,9 @@
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
+                                        <connections>
+                                            <action selector="patchButtonClicked:" target="XfG-lQ-9wD" id="PBQ-xV-hI0"/>
+                                        </connections>
                                     </button>
                                     <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="t2d-bv-SRD">
                                         <rect key="frame" x="0.0" y="241" width="400" height="5"/>
@@ -899,6 +917,13 @@
                             <constraint firstAttribute="bottom" secondItem="syk-kP-KCj" secondAttribute="bottom" id="xE0-Rd-lFm"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="debFileNameText" destination="C6d-mf-CSf" id="kNb-V1-cvt"/>
+                        <outlet property="displayNameTextField" destination="ipW-cZ-pZq" id="DOE-ye-0VY"/>
+                        <outlet property="injectSubstrateButton" destination="ZJx-G4-YCG" id="NCX-ey-hZL"/>
+                        <outlet property="ipaFileNameText" destination="dAA-qa-cp9" id="DQw-gr-ZRt"/>
+                        <outlet property="patchButton" destination="L3C-vp-Fe4" id="hr1-qF-ACu"/>
+                    </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -908,7 +933,7 @@
         <scene sceneID="aUv-j1-Y3B">
             <objects>
                 <viewController id="mMq-Ml-9Zc" sceneMemberID="viewController">
-                    <view key="view" misplaced="YES" id="LvE-Ao-1Lq">
+                    <view key="view" id="LvE-Ao-1Lq">
                         <rect key="frame" x="0.0" y="0.0" width="250" height="168"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
