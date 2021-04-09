@@ -49,7 +49,7 @@ class ViewController: NSViewController {
     }
     @IBAction func patchButtonClicked(_ sender: NSButton) {
         // TODO: Some stuff here...
-        
+        patch(ipa: ipaURL!, withDebOrDylib: debURL!, andDisplayName: displayNameTextField.stringValue, injectSubstrate: injectSubstrateButton.state == NSControl.StateValue.on)
     }
     
     override func viewDidLoad() {
@@ -65,8 +65,7 @@ class ViewController: NSViewController {
         }
         ipaFileNameText.stringValue = ipaURL?.lastPathComponent ?? "None selected"
         debFileNameText.stringValue = debURL?.lastPathComponent ?? "None selected"
-        displayNameTextField.stringValue = (ipaURL?.lastPathComponent ?? "").components(separatedBy: " ").first ?? ""
+        displayNameTextField.stringValue = (ipaURL?.deletingPathExtension().lastPathComponent ?? "").components(separatedBy: " ").first ?? ""
     }
-
 }
 

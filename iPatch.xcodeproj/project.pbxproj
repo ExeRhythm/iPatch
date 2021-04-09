@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE28C0322620830C007FF949 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28C0312620830C007FF949 /* Extensions.swift */; };
+		CE28C04C26208343007FF949 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28C03626208343007FF949 /* constants.swift */; };
+		CE28C04D26208343007FF949 /* dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28C03726208343007FF949 /* dependencies.swift */; };
+		CE28C04E26208343007FF949 /* fatal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28C03826208343007FF949 /* fatal.swift */; };
+		CE28C04F26208343007FF949 /* files.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28C03926208343007FF949 /* files.swift */; };
+		CE28C05026208343007FF949 /* shell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28C03A26208343007FF949 /* shell.swift */; };
+		CE28C05426208343007FF949 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = CE28C04126208343007FF949 /* LICENSE */; };
+		CE28C05526208343007FF949 /* NSData+Reading.m in Sources */ = {isa = PBXBuildFile; fileRef = CE28C04526208343007FF949 /* NSData+Reading.m */; };
+		CE28C05626208343007FF949 /* operations.m in Sources */ = {isa = PBXBuildFile; fileRef = CE28C04626208343007FF949 /* operations.m */; };
+		CE28C05726208343007FF949 /* headers.m in Sources */ = {isa = PBXBuildFile; fileRef = CE28C04726208343007FF949 /* headers.m */; };
+		CE28C05926208343007FF949 /* patch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28C04A26208343007FF949 /* patch.swift */; };
+		CE28C0612620844E007FF949 /* patch.m in Sources */ = {isa = PBXBuildFile; fileRef = CE28C0602620844E007FF949 /* patch.m */; };
+		CE28C06D26208C9D007FF949 /* libsubstrate.dylib in Resources */ = {isa = PBXBuildFile; fileRef = CE28C06726208C3E007FF949 /* libsubstrate.dylib */; };
+		CE28C06E26208C9D007FF949 /* libblackjack.dylib in Resources */ = {isa = PBXBuildFile; fileRef = CE28C06926208C64007FF949 /* libblackjack.dylib */; };
+		CE28C06F26208C9D007FF949 /* libhooker.dylib in Resources */ = {isa = PBXBuildFile; fileRef = CE28C06A26208C64007FF949 /* libhooker.dylib */; };
 		CED943A9262043A0001477CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED943A8262043A0001477CB /* AppDelegate.swift */; };
 		CED943AB262043A0001477CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED943AA262043A0001477CB /* ViewController.swift */; };
 		CED943AD262043A1001477CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED943AC262043A1001477CB /* Assets.xcassets */; };
@@ -15,6 +30,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE28C0312620830C007FF949 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CE28C03626208343007FF949 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		CE28C03726208343007FF949 /* dependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dependencies.swift; sourceTree = "<group>"; };
+		CE28C03826208343007FF949 /* fatal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fatal.swift; sourceTree = "<group>"; };
+		CE28C03926208343007FF949 /* files.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = files.swift; sourceTree = "<group>"; };
+		CE28C03A26208343007FF949 /* shell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = shell.swift; sourceTree = "<group>"; };
+		CE28C04026208343007FF949 /* NSData+Reading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Reading.h"; sourceTree = "<group>"; };
+		CE28C04126208343007FF949 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CE28C04226208343007FF949 /* operations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = operations.h; sourceTree = "<group>"; };
+		CE28C04326208343007FF949 /* headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = headers.h; sourceTree = "<group>"; };
+		CE28C04426208343007FF949 /* defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		CE28C04526208343007FF949 /* NSData+Reading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Reading.m"; sourceTree = "<group>"; };
+		CE28C04626208343007FF949 /* operations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = operations.m; sourceTree = "<group>"; };
+		CE28C04726208343007FF949 /* headers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = headers.m; sourceTree = "<group>"; };
+		CE28C04A26208343007FF949 /* patch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = patch.swift; sourceTree = "<group>"; };
+		CE28C05D2620843B007FF949 /* patch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = patch.h; sourceTree = "<group>"; };
+		CE28C0602620844E007FF949 /* patch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = patch.m; sourceTree = "<group>"; };
+		CE28C063262084A2007FF949 /* iPatch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "iPatch-Bridging-Header.h"; path = "iPatch/iPatch-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		CE28C06726208C3E007FF949 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsubstrate.dylib; sourceTree = "<group>"; };
+		CE28C06926208C64007FF949 /* libblackjack.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libblackjack.dylib; sourceTree = "<group>"; };
+		CE28C06A26208C64007FF949 /* libhooker.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libhooker.dylib; sourceTree = "<group>"; };
 		CED943A5262043A0001477CB /* iPatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED943A8262043A0001477CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CED943AA262043A0001477CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +72,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE28C0302620830C007FF949 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CE28C0312620830C007FF949 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CE28C03526208343007FF949 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CE28C03626208343007FF949 /* constants.swift */,
+				CE28C03726208343007FF949 /* dependencies.swift */,
+				CE28C03826208343007FF949 /* fatal.swift */,
+				CE28C03926208343007FF949 /* files.swift */,
+				CE28C03A26208343007FF949 /* shell.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CE28C03B26208343007FF949 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				CE28C06726208C3E007FF949 /* libsubstrate.dylib */,
+				CE28C06926208C64007FF949 /* libblackjack.dylib */,
+				CE28C06A26208C64007FF949 /* libhooker.dylib */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		CE28C03F26208343007FF949 /* optool */ = {
+			isa = PBXGroup;
+			children = (
+				CE28C04026208343007FF949 /* NSData+Reading.h */,
+				CE28C04126208343007FF949 /* LICENSE */,
+				CE28C04226208343007FF949 /* operations.h */,
+				CE28C04326208343007FF949 /* headers.h */,
+				CE28C04426208343007FF949 /* defines.h */,
+				CE28C04526208343007FF949 /* NSData+Reading.m */,
+				CE28C04626208343007FF949 /* operations.m */,
+				CE28C04726208343007FF949 /* headers.m */,
+			);
+			path = optool;
+			sourceTree = "<group>";
+		};
+		CE28C04826208343007FF949 /* Patch */ = {
+			isa = PBXGroup;
+			children = (
+				CE28C0602620844E007FF949 /* patch.m */,
+				CE28C04A26208343007FF949 /* patch.swift */,
+				CE28C05D2620843B007FF949 /* patch.h */,
+			);
+			path = Patch;
+			sourceTree = "<group>";
+		};
 		CED9439C262043A0001477CB = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +146,12 @@
 		CED943A7262043A0001477CB /* iPatch */ = {
 			isa = PBXGroup;
 			children = (
+				CE28C063262084A2007FF949 /* iPatch-Bridging-Header.h */,
+				CE28C03B26208343007FF949 /* Libs */,
+				CE28C03F26208343007FF949 /* optool */,
+				CE28C04826208343007FF949 /* Patch */,
+				CE28C03526208343007FF949 /* Utils */,
+				CE28C0302620830C007FF949 /* Extensions */,
 				CEF533FA26204DA0005C1AFF /* Resources */,
 				CED943A8262043A0001477CB /* AppDelegate.swift */,
 				CED943AA262043A0001477CB /* ViewController.swift */,
@@ -131,8 +228,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE28C06D26208C9D007FF949 /* libsubstrate.dylib in Resources */,
+				CE28C06E26208C9D007FF949 /* libblackjack.dylib in Resources */,
+				CE28C06F26208C9D007FF949 /* libhooker.dylib in Resources */,
 				CED943AD262043A1001477CB /* Assets.xcassets in Resources */,
 				CED943B0262043A1001477CB /* Main.storyboard in Resources */,
+				CE28C05426208343007FF949 /* LICENSE in Resources */,
 				CEF533FC26204DAA005C1AFF /* preview.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,8 +245,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE28C05726208343007FF949 /* headers.m in Sources */,
+				CE28C04E26208343007FF949 /* fatal.swift in Sources */,
+				CE28C05626208343007FF949 /* operations.m in Sources */,
 				CED943AB262043A0001477CB /* ViewController.swift in Sources */,
+				CE28C0322620830C007FF949 /* Extensions.swift in Sources */,
+				CE28C0612620844E007FF949 /* patch.m in Sources */,
+				CE28C05526208343007FF949 /* NSData+Reading.m in Sources */,
 				CED943A9262043A0001477CB /* AppDelegate.swift in Sources */,
+				CE28C04D26208343007FF949 /* dependencies.swift in Sources */,
+				CE28C05926208343007FF949 /* patch.swift in Sources */,
+				CE28C04F26208343007FF949 /* files.swift in Sources */,
+				CE28C05026208343007FF949 /* shell.swift in Sources */,
+				CE28C04C26208343007FF949 /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,9 +405,14 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iPatch/Libs",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.exerhythm.iPatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iPatch/iPatch-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -315,9 +432,14 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iPatch/Libs",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.exerhythm.iPatch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iPatch/iPatch-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
