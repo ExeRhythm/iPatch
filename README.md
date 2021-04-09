@@ -1,4 +1,6 @@
-# iPatch
+## CURRENTLY NOT WORKING
+
+# iPatch with MacOS 10.15 support
 GUI tool to inject dynamic libraries into IPA files
 
 ![Screenshot of the iPatch window](https://github.com/EamonTracey/iPatch/blob/main/assets/window.png)
@@ -9,7 +11,7 @@ An IPA file is a compressed version of an iOS application. You can attain IPA fi
 
 ## Usage
 
-Download iPatch.app in [releases](https://github.com/EamonTracey/iPatch/releases), move it to your `Applications` directory, and open the app. Insert a dylib or tweak debian package. Insert an IPA file. Modify the display name to your liking (this is the name the app will have on the Home Screen). Choose whether to inject substrate. Click `Patch` and wait.
+Download iPatch.app in [releases](https://github.com/ExeRhythm/iPatch/releases), move it to your `Applications` directory, and open the app. Insert a dylib or tweak debian package. Insert an IPA file. Modify the display name to your liking (this is the name the app will have on the Home Screen). Choose whether to inject substrate. Click `Patch` and wait.
 
 ## Compatibility
 
