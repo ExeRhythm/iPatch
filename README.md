@@ -3,7 +3,7 @@
 # iPatch with MacOS 10.15 support
 GUI tool to inject dynamic libraries into IPA files
 
-![Screenshot of the iPatch window](https://github.com/EamonTracey/iPatch/blob/main/assets/window.png)
+![Screenshot of the iPatch window](https://github.com/ExeRhythm/iPatch/raw/main/Screen%20Shot%202021-04-09%20at%2011.49.55.png)
 
 ## Explanation
 
