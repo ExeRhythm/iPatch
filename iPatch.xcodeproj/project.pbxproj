@@ -11,6 +11,7 @@
 		CED943AB262043A0001477CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED943AA262043A0001477CB /* ViewController.swift */; };
 		CED943AD262043A1001477CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED943AC262043A1001477CB /* Assets.xcassets */; };
 		CED943B0262043A1001477CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED943AE262043A1001477CB /* Main.storyboard */; };
+		CEF533FC26204DAA005C1AFF /* preview.png in Resources */ = {isa = PBXBuildFile; fileRef = CEF533FB26204DAA005C1AFF /* preview.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		CED943AF262043A1001477CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CED943B1262043A1001477CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CED943B2262043A1001477CB /* iPatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iPatch.entitlements; sourceTree = "<group>"; };
+		CEF533FB26204DAA005C1AFF /* preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 		CED943A7262043A0001477CB /* iPatch */ = {
 			isa = PBXGroup;
 			children = (
+				CEF533FA26204DA0005C1AFF /* Resources */,
 				CED943A8262043A0001477CB /* AppDelegate.swift */,
 				CED943AA262043A0001477CB /* ViewController.swift */,
 				CED943AC262043A1001477CB /* Assets.xcassets */,
@@ -61,6 +64,14 @@
 				CED943B2262043A1001477CB /* iPatch.entitlements */,
 			);
 			path = iPatch;
+			sourceTree = "<group>";
+		};
+		CEF533FA26204DA0005C1AFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CEF533FB26204DAA005C1AFF /* preview.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +133,7 @@
 			files = (
 				CED943AD262043A1001477CB /* Assets.xcassets in Resources */,
 				CED943B0262043A1001477CB /* Main.storyboard in Resources */,
+				CEF533FC26204DAA005C1AFF /* preview.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
