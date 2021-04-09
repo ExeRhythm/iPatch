@@ -1,5 +1,3 @@
-## CURRENTLY NOT WORKING
-
 # iPatch with MacOS 10.10-11.x support
 GUI tool to inject dynamic libraries into IPA files
 
