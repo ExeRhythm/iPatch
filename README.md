@@ -1,6 +1,6 @@
 ## CURRENTLY NOT WORKING
 
-# iPatch with MacOS 10.14-11.x support
+# iPatch with MacOS 10.10-11.x support
 GUI tool to inject dynamic libraries into IPA files
 
 ![Screenshot of the iPatch window](https://github.com/ExeRhythm/iPatch/raw/main/Screen%20Shot%202021-04-09%20at%2011.49.55.png)
@@ -15,4 +15,4 @@ Download iPatch.app in [releases](https://github.com/ExeRhythm/iPatch/releases),
 
 ## Compatibility
 
-iPatch is compatible with macOS versions >=10.14.
+iPatch is compatible with macOS versions >=10.10.
